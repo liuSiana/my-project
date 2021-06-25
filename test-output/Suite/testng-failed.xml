@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="driverPath" value="src/test/resources/chromedriver.exe"/>
+  <parameter name="seleniumVersion" value="2.x"/>
+  <parameter name="browserType" value="chrome"/>
+  <test name="浏览器测试(failed)">
+    <classes>
+      <class name="com.lemon.day020.section1.FindElement">
+        <methods>
+          <include name="f" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.lemon.day020.section1.FindElement -->
+    </classes>
+  </test> <!-- 浏览器测试(failed) -->
+</suite> <!-- Failed suite [Suite] -->

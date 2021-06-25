@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 多个学生的信息 -->
+<students>
+	<student id="1">
+		<name>tom</name>
+		<gender>1</gender>
+		<age>20</age>
+		<className>java2</className>
+	</student>
+	<student id="2">
+		<name>rose</name>
+		<gender>2</gender>
+		<age>21</age>
+		<className>java4</className>
+	</student>
+	<student id="3">
+		<name>jack</name>
+		<gender>2</gender>
+		<age>25</age>
+		<className>java2</className>
+	</student>
+	<student id="4">
+		<name>tommy</name>
+		<gender>1</gender>
+		<age>22</age>
+		<className>java4</className>
+	</student>
+</students>

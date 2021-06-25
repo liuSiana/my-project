@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+  <test name="测试">
+  	<groups>
+  		<run>
+  			<!-- <include name="g2"></include> -->
+  			<!-- 除了g2都执行 -->
+  			<exclude name="g2"></exclude>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="com.lemon.day018.section1.Tester3"/>
+    </classes>
+  </test> 
+
+</suite> <!-- Suite -->
