@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="4584" started-at="2021-06-24T08:38:10Z" finished-at="2021-06-24T08:38:14Z">
+  <suite name="Suite" duration-ms="8144" started-at="2021-07-15T06:29:59Z" finished-at="2021-07-15T06:30:07Z">
     <groups>
     </groups>
-    <test name="打开浏览器测试" duration-ms="4584" started-at="2021-06-24T08:38:10Z" finished-at="2021-06-24T08:38:14Z">
-      <class name="com.lemon.day019.section4.Tester">
-        <test-method status="PASS" signature="t(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.day019.section4.Tester@3532ec19]" name="t" duration-ms="4567" started-at="2021-06-24T16:38:10Z" finished-at="2021-06-24T16:38:14Z">
+    <test name="打开浏览器测试" duration-ms="8144" started-at="2021-07-15T06:29:59Z" finished-at="2021-07-15T06:30:07Z">
+      <class name="com.lemon.day020.section2.Tester">
+        <test-method status="PASS" signature="t(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lemon.day020.section2.Tester@3532ec19]" name="t" duration-ms="8130" started-at="2021-07-15T14:29:59Z" finished-at="2021-07-15T14:30:07Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- t -->
-      </class> <!-- com.lemon.day019.section4.Tester -->
+      </class> <!-- com.lemon.day020.section2.Tester -->
     </test> <!-- 打开浏览器测试 -->
   </suite> <!-- Suite -->
 </testng-results>

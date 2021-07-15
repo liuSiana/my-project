@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Suite]">
+  <parameter name="driverPath" value="src/test/resources/IEDriverServer.exe"/>
+  <parameter name="seleniumVersion" value="2.x"/>
+  <parameter name="browserType" value="IE"/>
+  <test name="打开浏览器测试(failed)">
     <classes>
-      <class name="com.lemon.day019.section4.Tester">
+      <class name="com.lemon.day020.section2.Tester">
         <methods>
-          <include name="t"/>
+          <include name="t" invocation-numbers="0"/>
         </methods>
-      </class> <!-- com.lemon.day019.section4.Tester -->
+      </class> <!-- com.lemon.day020.section2.Tester -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- 打开浏览器测试(failed) -->
+</suite> <!-- Failed suite [Suite] -->
