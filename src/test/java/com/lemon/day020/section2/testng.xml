@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+  <test name="打开浏览器测试">
+    <classes>
+      <class name="com.lemon.day020.section2.Tester"/>
+    </classes>
+  </test> 
+  <!-- 对打开浏览器的测试进行参数化设置 -->
+  <!-- 
+      浏览器类型：IE,Firefox,Chrome
+   selenium版本：2.x，3.x
+      驱动文件的存放地址：
+  	IE:         src/test/resources/IEDriverServer.exe
+  	Firefox：       src/test/resources/geckodriver.exe
+  	Chrome：         src/test/resources/chromedriver.exe
+   -->
+  <parameter name="browserType" value="IE"></parameter>
+  <parameter name="seleniumVersion" value="2.x"></parameter>
+  <parameter name="driverPath" value="src/test/resources/IEDriverServer.exe"></parameter>
+</suite>
