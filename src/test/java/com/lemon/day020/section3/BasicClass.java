@@ -6,6 +6,11 @@ import org.testng.annotations.Parameters;
 
 
 public class BasicClass {
+	/**
+	 * 此处使用static修饰全局变量
+	 *    在内存中只会有一份，大家共用
+	 * 如果不用static修饰，是对象属性，各不相同，此时在不同的方法中调用就会报空指针异常
+	 */
 	
 	protected static WebDriver driver;
 	
