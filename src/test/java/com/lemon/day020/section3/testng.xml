@@ -4,6 +4,7 @@
   <test name="打开浏览器测试">
     <classes>
       <class name="com.lemon.day020.section3.login.SucessTester"/>
+      <class name="com.lemon.day020.section3.register.FailTester"/>
     </classes>
   </test> 
   <!-- 对打开浏览器的测试进行参数化设置 -->
