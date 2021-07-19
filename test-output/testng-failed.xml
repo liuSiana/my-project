@@ -6,11 +6,13 @@
   <parameter name="browserType" value="IE"/>
   <test name="打开浏览器测试(failed)">
     <classes>
-      <class name="com.lemon.day020.section2.Tester">
+      <class name="com.lemon.day021.section2.WebElementAPITester">
         <methods>
-          <include name="t" invocation-numbers="0"/>
+          <include name="beforSuite"/>
+          <include name="afterSuit"/>
+          <include name="t"/>
         </methods>
-      </class> <!-- com.lemon.day020.section2.Tester -->
+      </class> <!-- com.lemon.day021.section2.WebElementAPITester -->
     </classes>
   </test> <!-- 打开浏览器测试(failed) -->
 </suite> <!-- Failed suite [Suite] -->

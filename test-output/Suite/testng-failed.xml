@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]">
-  <parameter name="driverPath" value="src/test/resources/chromedriver.exe"/>
+  <parameter name="driverPath" value="src/test/resources/IEDriverServer.exe"/>
   <parameter name="seleniumVersion" value="2.x"/>
-  <parameter name="browserType" value="chrome"/>
-  <test name="浏览器测试(failed)">
+  <parameter name="browserType" value="IE"/>
+  <test name="打开浏览器测试(failed)">
     <classes>
-      <class name="com.lemon.day020.section1.FindElement">
+      <class name="com.lemon.day021.section2.WebElementAPITester">
         <methods>
-          <include name="f" invocation-numbers="0"/>
+          <include name="beforSuite"/>
+          <include name="afterSuit"/>
+          <include name="t"/>
         </methods>
-      </class> <!-- com.lemon.day020.section1.FindElement -->
+      </class> <!-- com.lemon.day021.section2.WebElementAPITester -->
     </classes>
-  </test> <!-- 浏览器测试(failed) -->
+  </test> <!-- 打开浏览器测试(failed) -->
 </suite> <!-- Failed suite [Suite] -->

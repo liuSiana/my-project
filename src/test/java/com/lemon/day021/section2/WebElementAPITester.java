@@ -8,6 +8,10 @@ import org.testng.annotations.Test;
 import com.lemon.day021.section2.BasicClass;
 
 public class WebElementAPITester extends BasicClass{
+	/**
+	 * 对所定位的元素进行操作
+	 * @throws InterruptedException
+	 */
 	@Test
 	public void t() throws InterruptedException {
 //		WebElement element=driver.findElement(By.id("kw"));
